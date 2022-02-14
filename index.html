@@ -8,6 +8,10 @@
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 	<link rel="shortcut icon" href="./img/favicon.ico">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+	<!-- require MetingJS -->
+	<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
 </head>
 
 <body>
@@ -49,8 +53,11 @@
 				</div>
 			</div>
 		</div>
+		<meting-js server="netease" type="playlist" id="7126524405" fixed="true" autoplay="true" loop="all"
+			order="random" preload="auto" list-folded="ture" list-max-height="500px">
+		</meting-js>
 	</div>
-	<audio src="./music.mp3" autoplay="true" loop="loop"></audio>
+
 	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="./js/countTime.js"></script>
 	<script type="text/javascript" src="./js/jquery-3.6.0.min.js"></script>
