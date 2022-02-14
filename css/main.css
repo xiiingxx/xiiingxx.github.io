@@ -82,6 +82,7 @@
 
 .modal-content {
     background: #040404;
+    overflow: auto;
 }
 
 .time-font {
